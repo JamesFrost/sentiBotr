@@ -40,7 +40,6 @@ public class ApiHelper implements Constants {
         String apiReturn;
         String jsonData = generateJsonData(statuses, query);
         byte[] queryData = jsonData.getBytes("UTF-8");
-//        Proxy proxy = new Proxy(Proxy.Type.HTTP, new InetSocketAddress("124.240.187.79", 80));
         HttpURLConnection con = (HttpURLConnection) new URL(BASE_API_URL + APP_ID).openConnection();
         con.setConnectTimeout(60000);
         con.setRequestMethod("POST");
