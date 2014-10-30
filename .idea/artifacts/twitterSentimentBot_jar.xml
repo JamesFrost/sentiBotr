@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="twitterSentimentBot:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/twitterSentimentBot_jar</output-path>
+    <root id="archive" name="twitterSentimentBot.jar">
+      <element id="module-output" name="twitterSentimentBot" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/twitBot/lib/twitter4j-core-4.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/twitBot/lib/twitter4j-async-4.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/twitBot/lib/twitter4j-stream-4.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/twitBot/lib/twitter4j-examples-4.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/twitBot/lib/twitter4j-media-support-4.0.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
